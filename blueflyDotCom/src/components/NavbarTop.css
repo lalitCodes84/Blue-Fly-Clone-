@@ -1,0 +1,47 @@
+.navParent{
+    /* border: 1px solid red; */
+    margin: 0;
+    
+}
+.navParent>div{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 1% 2% 1% 2%;
+}
+
+
+.navTopParent>div+div{
+    column-gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.topNavRightSection{
+    margin-left: 8%;
+}
+.navTopParent>div+div>img{
+    /* border: 1px solid black; */
+    width: 12%;
+    margin-left: 35%;
+}
+.navTopParent>div>p{
+    /* border: 1px solid black; */
+    font-size: smaller;
+
+}
+.navTopParent>div>img{
+    width: 70%;
+
+}
+.cart_Icon{
+    width: 2%;
+    margin-left: 1.5%;
+}
+.heart{
+    width: 2.5%;
+}
+.cart{
+    width: 2.5%;
+}

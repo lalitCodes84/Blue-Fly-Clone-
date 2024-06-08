@@ -1,0 +1,11 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+nav>li{
+    /* background-color: red; */
+    list-style-type: none;
+    color: black;
+    margin-bottom: 2%;
+}
