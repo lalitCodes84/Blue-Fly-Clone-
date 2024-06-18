@@ -15,6 +15,7 @@ import Home from './pages/Home'
 import Under50 from './pages/Under50'
 import Clearance from './pages/Clearance'
 import ProductList from './components/ProductList'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
          <Route path='/Clearance' element={<Clearance/>}/>
        </Routes>
        <ProductList/>
+       <Footer/>
     </div>
   )
 }
